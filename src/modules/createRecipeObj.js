@@ -11,7 +11,6 @@ const createRecipeObj = function (data, folder) {
     sections: data.sections,
     description: data.description,
   };
-  //   console.log(data);
   folder(obj);
 };
 export default createRecipeObj;

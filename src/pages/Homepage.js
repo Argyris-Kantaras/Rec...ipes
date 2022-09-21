@@ -12,8 +12,8 @@ function Homepage() {
   const [recipeInfo, setRecipeInfo] = useState({});
   const [query, setQuery] = useState("");
   useEffect(() => {
-    // if (tag !== "") searchResults(setRecipes, tag, "");
-    // if (query !== "") searchResults(setRecipes, "", query);
+    if (tag !== "") searchResults(setRecipes, tag, "");
+    if (query !== "") searchResults(setRecipes, "", query);
   }, [tag, query]);
   return (
     <div className={styles.mainPage}>

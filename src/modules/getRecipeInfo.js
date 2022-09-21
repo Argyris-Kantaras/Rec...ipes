@@ -15,7 +15,6 @@ const getRecipeInfo = function (folder, id) {
   axios
     .request(options)
     .then(function (response) {
-      console.log(response.data);
       createRecipeObj(response.data, folder);
     })
     .catch(function (error) {
@@ -23,5 +22,3 @@ const getRecipeInfo = function (folder, id) {
     });
 };
 export default getRecipeInfo;
-
-// "8258"
