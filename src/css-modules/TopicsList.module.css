@@ -1,0 +1,13 @@
+.topics {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: rgb(247, 222, 26);
+}
+
+.topics:hover {
+  background-color: rgb(170, 4, 4);
+  color: rgb(247, 222, 26);
+  cursor: none;
+}

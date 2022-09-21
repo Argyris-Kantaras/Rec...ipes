@@ -1,0 +1,35 @@
+.sidebar {
+  width: 20%;
+  background-color: rgb(239, 227, 153);
+  height: 47rem;
+  text-align: left;
+  overflow-y: scroll;
+  padding-left: 0%;
+  list-style: none;
+}
+
+.sideRecipe {
+  margin-bottom: 1.5rem;
+  position: relative;
+  left: 0%;
+}
+.sideRecipe:hover {
+  background-color: rgb(253, 253, 126);
+  cursor: pointer;
+}
+
+.sideRecipe:active {
+  background-color: rgb(253, 253, 126);
+}
+
+.icon {
+  width: 3em;
+  max-height: 3em;
+  border-radius: 5em;
+}
+
+.name {
+  font-size: 0.7rem;
+  position: relative;
+  bottom: 1.2em;
+}

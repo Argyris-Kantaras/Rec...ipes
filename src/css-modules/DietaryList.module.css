@@ -1,0 +1,43 @@
+.dietaryList {
+  /* width: 20%; */
+  display: inline-block;
+  margin: 0.4rem;
+}
+
+.dietaryList:hover {
+  cursor: pointer;
+}
+
+.dietaryList:hover .list {
+  display: block;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  background-color: rgba(239, 227, 153, 0.8);
+  width: 12em;
+  margin-top: 0%;
+  padding-left: 2em;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.list ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 2em;
+}
+.list li {
+  list-style: none;
+  text-align: left;
+}
+.list ul {
+  font-weight: lighter;
+}
+
+.list ul li:hover {
+  cursor: pointer;
+
+  background-color: rgb(253, 253, 126);
+}

@@ -1,0 +1,61 @@
+.recipeContainer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  width: 80%;
+  /* color: white; */
+}
+.recipeContainer u {
+  font-size: 1.3rem;
+  color: yellow;
+}
+
+.sectionsContainer {
+  display: inline-block;
+  text-align: left;
+  min-width: 17rem;
+  background-color: rgba(239, 227, 153, 0.8);
+  margin: 0.5rem;
+  font-weight: bold;
+}
+.sectionsContainer ul {
+  list-style: none;
+}
+
+.sections {
+  margin-bottom: 0.5rem;
+}
+
+.instructions {
+  display: inline-block;
+  text-align: left;
+  max-width: 55%;
+  min-width: 17rem;
+  background-color: rgba(239, 227, 153, 0.8);
+  margin: 0.5rem;
+  font-weight: bold;
+}
+.instructions ul {
+  list-style: none;
+}
+
+.steps {
+  margin-bottom: 1rem;
+}
+
+.description {
+  width: 70%;
+  position: relative;
+  left: 15%;
+  color: rgb(5, 5, 5);
+  background-color: rgba(247, 222, 26, 0.6);
+}
+
+.noResults {
+  background-color: rgba(247, 222, 26, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 47rem;
+}

@@ -1,0 +1,5 @@
+1) Adjust the recipe info to the results id-----
+2) Make the search field functional------
+3) Add any extra info if possible--------
+4) Create a user account option
+5)Since have account then can save favorite recipes

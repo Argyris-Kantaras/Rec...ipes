@@ -1,0 +1,32 @@
+.cuisineList {
+  display: inline-block;
+  margin: 0.4rem;
+}
+.cuisineList:hover {
+  cursor: pointer;
+}
+
+.cuisineList:hover .list {
+  display: block;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  background-color: rgba(239, 227, 153, 0.8);
+  width: 8em;
+  padding-left: 0%;
+  z-index: 3;
+}
+
+.list ul {
+  list-style: none;
+  text-align: left;
+  margin-top: 0%;
+  padding-left: 2em;
+}
+
+.list ul li:hover {
+  cursor: pointer;
+  background-color: rgb(253, 253, 126);
+}

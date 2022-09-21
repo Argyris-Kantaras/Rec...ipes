@@ -1,0 +1,7 @@
+.mainPage {
+  overflow-y: hidden;
+}
+
+.resultsSection {
+  display: flex;
+}
