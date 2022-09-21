@@ -1,8 +1,9 @@
-import soupImg from "../icons/chicken-soup.jpg";
+import { useState } from "react";
 import styles from "../css-modules/ShowResults.module.css";
 import getRecipeInfo from "../modules/getRecipeInfo";
 
 function ShowResults(props) {
+  const [active, setActive] = useState("");
   const results = props.data;
   return (
     <ul className={styles.sidebar}>
@@ -11,9 +12,17 @@ function ShowResults(props) {
             return (
               <li
                 key={recipe.id}
-                onClick={() => getRecipeInfo(props.infoSetter, recipe.id)}
+                onClick={() => {
+                  setActive(recipe.id);
+                  getRecipeInfo(props.infoSetter, recipe.id);
+                }}
                 id={recipe.id}
                 className={styles.sideRecipe}
+                style={
+                  active === recipe.id
+                    ? { backgroundColor: "yellow" }
+                    : { backgroundColor: "rgb(239, 227, 153)" }
+                }
               >
                 <img
                   className={styles.icon}
