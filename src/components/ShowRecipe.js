@@ -14,7 +14,7 @@ function ShowRecipe(props) {
   }, [props]);
   return (
     <div ref={recipeContainerRef} className={styles.recipeContainer}>
-      <h2>{recipe.name}</h2>
+      <h2 className={styles.name}>{recipe.name}</h2>
       <div className={styles.topicsContainer}>
         <TopicsList topics={recipe.topics} />
       </div>

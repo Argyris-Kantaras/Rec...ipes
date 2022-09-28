@@ -1,0 +1,10 @@
+.account {
+  /* display: inline-block; */
+  position: absolute;
+  left: 80%;
+  top: 5%;
+}
+
+.accountImg {
+  width: 2rem;
+}

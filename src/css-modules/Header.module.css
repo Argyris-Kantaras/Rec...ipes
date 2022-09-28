@@ -1,5 +1,10 @@
 .header {
   background-color: rgb(247, 222, 26);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(247, 222, 26) 0%,
+    rgb(239, 227, 153) 100%
+  );
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

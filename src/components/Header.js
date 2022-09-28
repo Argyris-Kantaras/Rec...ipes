@@ -5,6 +5,7 @@ import HolidayList from "./HolidayList";
 import OccasionList from "./OccasionList";
 import { useRef } from "react";
 import logo from "../icons/new-logo.png";
+import Account from "./Account";
 
 function Header(props) {
   const searchInpRef = useRef();
@@ -28,6 +29,7 @@ function Header(props) {
           <input ref={searchInpRef} className={styles.searchInp} type="text" />
           <button className={styles.okBtn}>OK</button>
         </form>
+        {/* <Account /> */}
         <div className={styles.quickLists}>
           <CuisineList tag={props.tagSetter} />
           <OccasionList tag={props.tagSetter} />

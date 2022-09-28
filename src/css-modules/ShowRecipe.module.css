@@ -2,13 +2,22 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* display: flex; */
   width: 80%;
-  /* color: white; */
 }
 .recipeContainer u {
   font-size: 1.3rem;
   color: yellow;
+}
+
+.name {
+  color: rgb(251, 255, 4);
+}
+
+@media only screen and (max-width: 600px) {
+  .recipeContainer {
+    width: 100%;
+    font-size: 0.7rem;
+  }
 }
 
 .sectionsContainer {
@@ -22,6 +31,9 @@
 .sectionsContainer ul {
   list-style: none;
 }
+.sectionsContainer ul li {
+  margin-bottom: 0.3rem;
+}
 
 .sections {
   margin-bottom: 0.5rem;
@@ -31,13 +43,16 @@
   display: inline-block;
   text-align: left;
   max-width: 55%;
-  min-width: 17rem;
+  min-width: 21rem;
   background-color: rgba(239, 227, 153, 0.8);
   margin: 0.5rem;
   font-weight: bold;
 }
 .instructions ul {
   list-style: none;
+}
+.instructions ul li {
+  margin-bottom: 0.3rem;
 }
 
 .steps {
@@ -53,7 +68,7 @@
 }
 
 .noResults {
-  background-color: rgba(247, 222, 26, 0.6);
+  background-color: rgb(239, 227, 153);
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
