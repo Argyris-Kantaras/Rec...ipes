@@ -1,0 +1,13 @@
+.topics {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(5, 5, 5, 0.6);
+  color: rgb(65, 207, 143);
+}
+
+.topics:hover {
+  color: white;
+  cursor: pointer;
+}

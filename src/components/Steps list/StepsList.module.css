@@ -1,0 +1,14 @@
+.listItem {
+  margin-bottom: 7em;
+  font-size: 1.2em;
+}
+
+.stepsList h2 {
+  text-align: center;
+  background-color: rgb(65, 207, 143);
+}
+
+.dotImg {
+  width: 3em;
+  margin-bottom: -0.5em;
+}

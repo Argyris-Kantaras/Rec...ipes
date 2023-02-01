@@ -1,0 +1,59 @@
+.startPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.startPage img {
+  width: 30rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10em;
+}
+
+.text {
+  width: 40%;
+}
+
+.text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h2 {
+  color: rgb(65, 207, 143);
+}
+
+.recommendations {
+  display: flex;
+  list-style: none;
+}
+.coverReccomendations {
+  display: flex;
+  overflow: hidden;
+  width: 50%;
+}
+.recommendations img {
+  width: 8em;
+  height: 8em;
+  border-radius: 5em;
+}
+
+.resultContainer div {
+  width: 20.3em;
+  text-align: center;
+  align-items: center;
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  border-radius: 2em;
+  border: 1px solid black;
+}

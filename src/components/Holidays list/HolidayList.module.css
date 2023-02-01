@@ -1,0 +1,40 @@
+.holidayList {
+  display: inline-block;
+  /* margin: 0.4rem; */
+}
+.holidayList:hover {
+  cursor: pointer;
+}
+
+.holidayList:hover .list {
+  display: block;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  background-color: rgb(65, 207, 143);
+  width: 10em;
+  z-index: 3;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  margin-top: 0%;
+  padding-left: 2em;
+}
+
+.list li:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+@media only screen and (max-width: 600px) {
+  .holidayList ul {
+    padding-left: 0%;
+  }
+  .list {
+    right: 0%;
+  }
+}

@@ -1,0 +1,16 @@
+.mainPage {
+  overflow-y: hidden;
+}
+
+.resultsSection {
+  display: flex;
+  /* display: none; */
+}
+.startPage {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .resultsSection {
+    display: block;
+  }
+}

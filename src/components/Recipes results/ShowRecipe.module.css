@@ -1,0 +1,103 @@
+.recipeContainer {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 40%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  width: 80%;
+}
+
+.topicsContainer {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.name {
+  width: 65%;
+  height: 2em;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  background-image: url("D:\Projects\My testing web\food-reps\src\icons\knife-tomatoes.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.sectionsContainer {
+  display: flex;
+  text-align: left;
+  margin-bottom: 8em;
+  width: 100%;
+  font-weight: bold;
+}
+.sectionsContainer ul {
+  list-style: none;
+}
+.instructions {
+  display: block;
+  text-align: left;
+  width: 100%;
+  background-size: 30em;
+  background-image: url("D:\Projects\My testing web\food-reps\src\icons\avocado.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 35%;
+  margin: 0.5rem;
+  margin-top: 20%;
+  font-weight: bold;
+}
+.instructions ul {
+  list-style: none;
+}
+
+.steps {
+  margin-bottom: 1rem;
+}
+
+.description {
+  width: 100%;
+  position: relative;
+  margin-bottom: 5em;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.noResults {
+  background-color: rgb(239, 227, 153);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 47rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .recipeContainer {
+    width: 100%;
+    display: block;
+    /* font-size: 0.7rem; */
+    background-position: center top;
+    background-size: 100%;
+  }
+  .topSection {
+    width: 100%;
+    position: relative;
+    top: 30rem;
+  }
+  .instructions {
+    position: relative;
+    top: 30rem;
+    margin-bottom: 30rem;
+  }
+  .name {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}

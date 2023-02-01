@@ -1,0 +1,11 @@
+.components h2 {
+  text-align: center;
+  background-color: rgb(65, 207, 143);
+}
+.listItem {
+  margin-bottom: 0.5rem;
+}
+/* .stepsList h2 {
+  text-align: center;
+  background-color: rgb(65, 207, 143);
+} */
